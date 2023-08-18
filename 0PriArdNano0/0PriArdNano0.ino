@@ -26,7 +26,7 @@ void setup(){
  
  
 void loop(){ 
-  float data [3];  //создаем массив из 2-х переменных.
+  float data [3];  //создаем массив из 3-х переменных.
   if (radio.available()){ //проверяем не пришло ли чего в буфер.
   radio.read(&data, sizeof(data)); //читаем массив и указываем сколько пришло.
    dislpl.setCursor(0,0);
