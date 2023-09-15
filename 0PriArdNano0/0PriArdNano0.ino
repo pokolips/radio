@@ -33,7 +33,7 @@ void loop(){
         dislpl.print(data[0]);
         dislpl.setCursor(0,1);
         dislpl.print(data[1]);
-        dislpl.setCursor(6,1);
+        dislpl.setCursor(6,1); // нужно 7,1
         dislpl.print(data[2]);
   /* Serial.println(data[0]); //выводим данные в сериал порт для проверки.
    Serial.println(data[1]); //выводим данные в сериал порт для проверки.
